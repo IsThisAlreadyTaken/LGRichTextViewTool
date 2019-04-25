@@ -1,0 +1,6 @@
+framework module LGRichTextViewTool {
+  umbrella header "LGRichTextViewTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

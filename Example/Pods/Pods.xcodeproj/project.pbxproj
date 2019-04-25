@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AE886F97699CB2BD17CAAEE85163F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		16627D16F05CA91FF5519D128AF7B7EE /* Pods-LGRichTextViewTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F455F6D43D5B3E74FB657CFC9D7A023 /* Pods-LGRichTextViewTool_Example-dummy.m */; };
+		249D1286BF0C106F98CCA2B4AC3B3D00 /* Pods-LGRichTextViewTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E83AC3C0FFD657C38FC27FC40D2FC48D /* Pods-LGRichTextViewTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C06D6118EED752D833418FD8544F69 /* LGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDE03B5FFDA508C4273802D37DA4A8 /* LGTextView.m */; };
+		5266F68DE92964C47FFE873ABD06FCDC /* Pods-LGRichTextViewTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60863227859FA46B8C728CC7DB1286EC /* Pods-LGRichTextViewTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5781E69C696A4A191352470364BB4BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		71FE7C903FDB82AF0B1AA9267E24D892 /* LGRichTextViewTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47F1B84412B97A78B0B287DA925B904 /* LGRichTextViewTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD92AE0D8F599116392A6B8F5D1B9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		93AD0727CCC9533069CCF2DD75FD818F /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 257BA7791F0DA4477C99C089BB5DE35F /* Classes */; };
+		94D17B3DD88B6D65EE80E101A7F7FBF2 /* Pods-LGRichTextViewTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DE6B1CE750FB98EF2ADD5501B4A3F /* Pods-LGRichTextViewTool_Tests-dummy.m */; };
+		A3A51CD4CF8EC8CBB6CE4C2BD157AB0A /* LGRichTextViewTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CC20EE1A4ACE7C4B326F8297CA0EDB /* LGRichTextViewTool-dummy.m */; };
+		A8F0B42F06DC83AC803817DAE7BAA817 /* LGRichTextViewTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F920DD313CB42154B466357554EF00D /* LGRichTextViewTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6F919604397FCAA3253F17E0C86B05 /* LGRichTextViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE1775CF9D405373045B00DF2DD898A /* LGRichTextViewTool.m */; };
+		BE58BB4FF53D42C2979096CC3E3790E6 /* LGTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABC5F36D81BC42795FDB16B06050C99 /* LGTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D0A33427DD7ADF3745DFCD5EBAF2F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2697731217103C00C38029ED60579D;
+			remoteInfo = LGRichTextViewTool;
+		};
+		AC3D308D3FD286BC6EEA74F137168E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6A558B4FC0720019FE50C7F596A3E6;
+			remoteInfo = "Pods-LGRichTextViewTool_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABC5F36D81BC42795FDB16B06050C99 /* LGTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGTextView.h; path = LGRichTextViewTool/Classes/LGTextView.h; sourceTree = "<group>"; };
+		1564B73FE1E57652D0ADCE9CF060A71B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		257BA7791F0DA4477C99C089BB5DE35F /* Classes */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes; path = LGRichTextViewTool/Classes; sourceTree = "<group>"; };
+		270FDE08270E4505CA7E212481D3A130 /* LGRichTextViewTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGRichTextViewTool.modulemap; sourceTree = "<group>"; };
+		2F455F6D43D5B3E74FB657CFC9D7A023 /* Pods-LGRichTextViewTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGRichTextViewTool_Example-dummy.m"; sourceTree = "<group>"; };
+		416C6500A970C4A4FBC98AA9284DD294 /* Pods-LGRichTextViewTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGRichTextViewTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		47BED6B96AC9E83062B05083CAC7D64D /* Pods-LGRichTextViewTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGRichTextViewTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		49E2B0AD89E36528F42169FA9D5D77D2 /* LGRichTextViewTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LGRichTextViewTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4EB04F0B5613169B18877EDE2B444732 /* Pods-LGRichTextViewTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGRichTextViewTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57AF1C2B669468F8B1C6E30D61303E9B /* Pods-LGRichTextViewTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGRichTextViewTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60863227859FA46B8C728CC7DB1286EC /* Pods-LGRichTextViewTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGRichTextViewTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		70AE2876E867D00BFD106E776A7F278E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		714FF70152A00DE405F97907FAD10C6F /* LGRichTextViewTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGRichTextViewTool-prefix.pch"; sourceTree = "<group>"; };
+		89B240B27D9D3DC71F77559C535509CF /* Pods_LGRichTextViewTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGRichTextViewTool_Tests.framework; path = "Pods-LGRichTextViewTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5DE6B1CE750FB98EF2ADD5501B4A3F /* Pods-LGRichTextViewTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGRichTextViewTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		92FDE03B5FFDA508C4273802D37DA4A8 /* LGTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGTextView.m; path = LGRichTextViewTool/Classes/LGTextView.m; sourceTree = "<group>"; };
+		96CC20EE1A4ACE7C4B326F8297CA0EDB /* LGRichTextViewTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGRichTextViewTool-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F920DD313CB42154B466357554EF00D /* LGRichTextViewTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGRichTextViewTool.h; path = LGRichTextViewTool/Classes/LGRichTextViewTool.h; sourceTree = "<group>"; };
+		A24F33A672522B36D5DCBECDE62E3264 /* Pods-LGRichTextViewTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGRichTextViewTool_Example-Info.plist"; sourceTree = "<group>"; };
+		A55119A70628645EF2F446A0DBFD6C20 /* LGRichTextViewTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGRichTextViewTool-Info.plist"; sourceTree = "<group>"; };
+		A88F424BEADAAA8586B919BA7476D152 /* Pods-LGRichTextViewTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGRichTextViewTool_Tests.modulemap"; sourceTree = "<group>"; };
+		A8C7DA112EFAA6175B8FBE296ED913AC /* Pods_LGRichTextViewTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGRichTextViewTool_Example.framework; path = "Pods-LGRichTextViewTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EB67CC09039BC0DF30247F190FCE57 /* Pods-LGRichTextViewTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGRichTextViewTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		C60913BB831A53BA4BDD59EE7B36340F /* Pods-LGRichTextViewTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGRichTextViewTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C61D4249D548F7F0D7B922DBEDD9858E /* Pods-LGRichTextViewTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGRichTextViewTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C876A75EE9842540C2DAC3D530AF6B8D /* Pods-LGRichTextViewTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGRichTextViewTool_Example.modulemap"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D10A2F75506CAB175E54D17B98213E01 /* LGRichTextViewTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGRichTextViewTool.framework; path = LGRichTextViewTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47F1B84412B97A78B0B287DA925B904 /* LGRichTextViewTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGRichTextViewTool-umbrella.h"; sourceTree = "<group>"; };
+		D6E0C5C7D890F9EB96469F8CC0A9B8A0 /* Pods-LGRichTextViewTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGRichTextViewTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC7DE755361755E093F005B08B2934F3 /* LGRichTextViewTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGRichTextViewTool.xcconfig; sourceTree = "<group>"; };
+		E2D92320257D1CEDDFFB520FCD3AEDE1 /* Pods-LGRichTextViewTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGRichTextViewTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E83AC3C0FFD657C38FC27FC40D2FC48D /* Pods-LGRichTextViewTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGRichTextViewTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		EAE158E7364EB2E6BE1B23DDBEC07D0D /* Pods-LGRichTextViewTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGRichTextViewTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE1775CF9D405373045B00DF2DD898A /* LGRichTextViewTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGRichTextViewTool.m; path = LGRichTextViewTool/Classes/LGRichTextViewTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3868FF64BAFD160ADA655DA901BBEDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD92AE0D8F599116392A6B8F5D1B9F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A483D74A984C2AA1AB0A9EC3D75939CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AE886F97699CB2BD17CAAEE85163F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78DF9DAC77820C74798419A6D01F91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5781E69C696A4A191352470364BB4BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E7769CA427C53E594FBB8853937653 /* Pods-LGRichTextViewTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C876A75EE9842540C2DAC3D530AF6B8D /* Pods-LGRichTextViewTool_Example.modulemap */,
+				D6E0C5C7D890F9EB96469F8CC0A9B8A0 /* Pods-LGRichTextViewTool_Example-acknowledgements.markdown */,
+				416C6500A970C4A4FBC98AA9284DD294 /* Pods-LGRichTextViewTool_Example-acknowledgements.plist */,
+				2F455F6D43D5B3E74FB657CFC9D7A023 /* Pods-LGRichTextViewTool_Example-dummy.m */,
+				C60913BB831A53BA4BDD59EE7B36340F /* Pods-LGRichTextViewTool_Example-frameworks.sh */,
+				A24F33A672522B36D5DCBECDE62E3264 /* Pods-LGRichTextViewTool_Example-Info.plist */,
+				E83AC3C0FFD657C38FC27FC40D2FC48D /* Pods-LGRichTextViewTool_Example-umbrella.h */,
+				EAE158E7364EB2E6BE1B23DDBEC07D0D /* Pods-LGRichTextViewTool_Example.debug.xcconfig */,
+				C61D4249D548F7F0D7B922DBEDD9858E /* Pods-LGRichTextViewTool_Example.release.xcconfig */,
+			);
+			name = "Pods-LGRichTextViewTool_Example";
+			path = "Target Support Files/Pods-LGRichTextViewTool_Example";
+			sourceTree = "<group>";
+		};
+		4F4B9C5E2097F202595B9B7C2C0E656E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49E2B0AD89E36528F42169FA9D5D77D2 /* LGRichTextViewTool.podspec */,
+				1564B73FE1E57652D0ADCE9CF060A71B /* LICENSE */,
+				70AE2876E867D00BFD106E776A7F278E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5B444C2435592839B1DC7F72ACB8D2A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7777451D7445034D1C0EEBB4B9BF4A49 /* LGRichTextViewTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		74C47B731427C4A79E464C6BCEDD2846 /* Pods-LGRichTextViewTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A88F424BEADAAA8586B919BA7476D152 /* Pods-LGRichTextViewTool_Tests.modulemap */,
+				E2D92320257D1CEDDFFB520FCD3AEDE1 /* Pods-LGRichTextViewTool_Tests-acknowledgements.markdown */,
+				57AF1C2B669468F8B1C6E30D61303E9B /* Pods-LGRichTextViewTool_Tests-acknowledgements.plist */,
+				8D5DE6B1CE750FB98EF2ADD5501B4A3F /* Pods-LGRichTextViewTool_Tests-dummy.m */,
+				B4EB67CC09039BC0DF30247F190FCE57 /* Pods-LGRichTextViewTool_Tests-Info.plist */,
+				60863227859FA46B8C728CC7DB1286EC /* Pods-LGRichTextViewTool_Tests-umbrella.h */,
+				4EB04F0B5613169B18877EDE2B444732 /* Pods-LGRichTextViewTool_Tests.debug.xcconfig */,
+				47BED6B96AC9E83062B05083CAC7D64D /* Pods-LGRichTextViewTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGRichTextViewTool_Tests";
+			path = "Target Support Files/Pods-LGRichTextViewTool_Tests";
+			sourceTree = "<group>";
+		};
+		7777451D7445034D1C0EEBB4B9BF4A49 /* LGRichTextViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				9F920DD313CB42154B466357554EF00D /* LGRichTextViewTool.h */,
+				FEE1775CF9D405373045B00DF2DD898A /* LGRichTextViewTool.m */,
+				0ABC5F36D81BC42795FDB16B06050C99 /* LGTextView.h */,
+				92FDE03B5FFDA508C4273802D37DA4A8 /* LGTextView.m */,
+				4F4B9C5E2097F202595B9B7C2C0E656E /* Pod */,
+				A37DAC8BB4AFBB0975B8FA4E47888CA8 /* Resources */,
+				B808391F3396DB0068F03B3B5785EC86 /* Support Files */,
+			);
+			name = LGRichTextViewTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		81DF9611107EAA8BDE14607B0DD4122A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E7769CA427C53E594FBB8853937653 /* Pods-LGRichTextViewTool_Example */,
+				74C47B731427C4A79E464C6BCEDD2846 /* Pods-LGRichTextViewTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A37DAC8BB4AFBB0975B8FA4E47888CA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				257BA7791F0DA4477C99C089BB5DE35F /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B808391F3396DB0068F03B3B5785EC86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				270FDE08270E4505CA7E212481D3A130 /* LGRichTextViewTool.modulemap */,
+				DC7DE755361755E093F005B08B2934F3 /* LGRichTextViewTool.xcconfig */,
+				96CC20EE1A4ACE7C4B326F8297CA0EDB /* LGRichTextViewTool-dummy.m */,
+				A55119A70628645EF2F446A0DBFD6C20 /* LGRichTextViewTool-Info.plist */,
+				714FF70152A00DE405F97907FAD10C6F /* LGRichTextViewTool-prefix.pch */,
+				D47F1B84412B97A78B0B287DA925B904 /* LGRichTextViewTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGRichTextViewTool";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5B444C2435592839B1DC7F72ACB8D2A2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EF550D53566E86F7B28150052EBFAD8A /* Products */,
+				81DF9611107EAA8BDE14607B0DD4122A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF550D53566E86F7B28150052EBFAD8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10A2F75506CAB175E54D17B98213E01 /* LGRichTextViewTool.framework */,
+				A8C7DA112EFAA6175B8FBE296ED913AC /* Pods_LGRichTextViewTool_Example.framework */,
+				89B240B27D9D3DC71F77559C535509CF /* Pods_LGRichTextViewTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BFE93061CECBB08DC9F17DAD73A17BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FE7C903FDB82AF0B1AA9267E24D892 /* LGRichTextViewTool-umbrella.h in Headers */,
+				A8F0B42F06DC83AC803817DAE7BAA817 /* LGRichTextViewTool.h in Headers */,
+				BE58BB4FF53D42C2979096CC3E3790E6 /* LGTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F515C5223D273F6F3924942BCA7E9AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5266F68DE92964C47FFE873ABD06FCDC /* Pods-LGRichTextViewTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAF6394C22B70F09F5908D6523923DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249D1286BF0C106F98CCA2B4AC3B3D00 /* Pods-LGRichTextViewTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F2697731217103C00C38029ED60579D /* LGRichTextViewTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957D3CD77A1728E1E39C4A8D010B2C85 /* Build configuration list for PBXNativeTarget "LGRichTextViewTool" */;
+			buildPhases = (
+				5BFE93061CECBB08DC9F17DAD73A17BF /* Headers */,
+				AA8F4F6C656F1387E2FDA8C439D799E1 /* Sources */,
+				D78DF9DAC77820C74798419A6D01F91B /* Frameworks */,
+				80BCC4AF2BA05D95E09A5B5459C0A559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGRichTextViewTool;
+			productName = LGRichTextViewTool;
+			productReference = D10A2F75506CAB175E54D17B98213E01 /* LGRichTextViewTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD6A558B4FC0720019FE50C7F596A3E6 /* Pods-LGRichTextViewTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48579B98365938CB79502948DC87971B /* Build configuration list for PBXNativeTarget "Pods-LGRichTextViewTool_Example" */;
+			buildPhases = (
+				FFAF6394C22B70F09F5908D6523923DE /* Headers */,
+				55F08F87C30D29079459C41358390B1D /* Sources */,
+				A483D74A984C2AA1AB0A9EC3D75939CB /* Frameworks */,
+				A0A8B266C37B09EE296DD30120ED4DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F046A6469C5D94F2111B2CCCAECC343 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGRichTextViewTool_Example";
+			productName = "Pods-LGRichTextViewTool_Example";
+			productReference = A8C7DA112EFAA6175B8FBE296ED913AC /* Pods_LGRichTextViewTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCD6E6F9A821ED4F76AB4CE5395F4D97 /* Pods-LGRichTextViewTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7CFDDE7BA830BD1F0AB91FED71551B /* Build configuration list for PBXNativeTarget "Pods-LGRichTextViewTool_Tests" */;
+			buildPhases = (
+				9F515C5223D273F6F3924942BCA7E9AF /* Headers */,
+				0C8A79870106FEBC9A8E1B27CB0CD543 /* Sources */,
+				3868FF64BAFD160ADA655DA901BBEDA8 /* Frameworks */,
+				9A5465146140D0969915E8510F91EC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D6BB43ADB7AC607AFFBDF19B1098CE /* PBXTargetDependency */,
+			);
+			name = "Pods-LGRichTextViewTool_Tests";
+			productName = "Pods-LGRichTextViewTool_Tests";
+			productReference = 89B240B27D9D3DC71F77559C535509CF /* Pods_LGRichTextViewTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EF550D53566E86F7B28150052EBFAD8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2697731217103C00C38029ED60579D /* LGRichTextViewTool */,
+				DD6A558B4FC0720019FE50C7F596A3E6 /* Pods-LGRichTextViewTool_Example */,
+				FCD6E6F9A821ED4F76AB4CE5395F4D97 /* Pods-LGRichTextViewTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80BCC4AF2BA05D95E09A5B5459C0A559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AD0727CCC9533069CCF2DD75FD818F /* Classes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5465146140D0969915E8510F91EC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A8B266C37B09EE296DD30120ED4DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C8A79870106FEBC9A8E1B27CB0CD543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D17B3DD88B6D65EE80E101A7F7FBF2 /* Pods-LGRichTextViewTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F08F87C30D29079459C41358390B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16627D16F05CA91FF5519D128AF7B7EE /* Pods-LGRichTextViewTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8F4F6C656F1387E2FDA8C439D799E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A51CD4CF8EC8CBB6CE4C2BD157AB0A /* LGRichTextViewTool-dummy.m in Sources */,
+				AF6F919604397FCAA3253F17E0C86B05 /* LGRichTextViewTool.m in Sources */,
+				27C06D6118EED752D833418FD8544F69 /* LGTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F046A6469C5D94F2111B2CCCAECC343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGRichTextViewTool;
+			target = 9F2697731217103C00C38029ED60579D /* LGRichTextViewTool */;
+			targetProxy = 7D0A33427DD7ADF3745DFCD5EBAF2F0E /* PBXContainerItemProxy */;
+		};
+		90D6BB43ADB7AC607AFFBDF19B1098CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGRichTextViewTool_Example";
+			target = DD6A558B4FC0720019FE50C7F596A3E6 /* Pods-LGRichTextViewTool_Example */;
+			targetProxy = AC3D308D3FD286BC6EEA74F137168E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		06C3D06190C0919A58C6D4924F8811F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7DE755361755E093F005B08B2934F3 /* LGRichTextViewTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGRichTextViewTool/LGRichTextViewTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGRichTextViewTool/LGRichTextViewTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGRichTextViewTool/LGRichTextViewTool.modulemap";
+				PRODUCT_MODULE_NAME = LGRichTextViewTool;
+				PRODUCT_NAME = LGRichTextViewTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1553FF22D04AD0C834818B5036DF862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BED6B96AC9E83062B05083CAC7D64D /* Pods-LGRichTextViewTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGRichTextViewTool_Tests/Pods-LGRichTextViewTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGRichTextViewTool_Tests/Pods-LGRichTextViewTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		418219D0981CFC5528F7E582DC9F368D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB04F0B5613169B18877EDE2B444732 /* Pods-LGRichTextViewTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGRichTextViewTool_Tests/Pods-LGRichTextViewTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGRichTextViewTool_Tests/Pods-LGRichTextViewTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9870F4C3B70429F4868C5DEBEB0C3CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE158E7364EB2E6BE1B23DDBEC07D0D /* Pods-LGRichTextViewTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGRichTextViewTool_Example/Pods-LGRichTextViewTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGRichTextViewTool_Example/Pods-LGRichTextViewTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB7B46AE12CA34350B1C6D1524399B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61D4249D548F7F0D7B922DBEDD9858E /* Pods-LGRichTextViewTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGRichTextViewTool_Example/Pods-LGRichTextViewTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGRichTextViewTool_Example/Pods-LGRichTextViewTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB099F268DC4F31BF26580B2FBBD438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7DE755361755E093F005B08B2934F3 /* LGRichTextViewTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGRichTextViewTool/LGRichTextViewTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGRichTextViewTool/LGRichTextViewTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGRichTextViewTool/LGRichTextViewTool.modulemap";
+				PRODUCT_MODULE_NAME = LGRichTextViewTool;
+				PRODUCT_NAME = LGRichTextViewTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48579B98365938CB79502948DC87971B /* Build configuration list for PBXNativeTarget "Pods-LGRichTextViewTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9870F4C3B70429F4868C5DEBEB0C3CE0 /* Debug */,
+				EB7B46AE12CA34350B1C6D1524399B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957D3CD77A1728E1E39C4A8D010B2C85 /* Build configuration list for PBXNativeTarget "LGRichTextViewTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C3D06190C0919A58C6D4924F8811F0 /* Debug */,
+				FB099F268DC4F31BF26580B2FBBD438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7CFDDE7BA830BD1F0AB91FED71551B /* Build configuration list for PBXNativeTarget "Pods-LGRichTextViewTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418219D0981CFC5528F7E582DC9F368D /* Debug */,
+				1553FF22D04AD0C834818B5036DF862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

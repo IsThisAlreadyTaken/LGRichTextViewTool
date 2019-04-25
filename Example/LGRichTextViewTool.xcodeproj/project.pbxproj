@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2EE6385F2BBE3B03E713537C /* Pods-LGRichTextViewTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGRichTextViewTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-LGRichTextViewTool_Example/Pods-LGRichTextViewTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45DE9B8BABB3DD2BF038AF74 /* Pods_LGRichTextViewTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGRichTextViewTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58D9AC6A8C37CBCA635C9B35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		58D9AC6A8C37CBCA635C9B35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGRichTextViewTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGRichTextViewTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		661DAD3097FA96C2C329B311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		661DAD3097FA96C2C329B311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		67891B01A084BACD9E11C084 /* Pods_LGRichTextViewTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGRichTextViewTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		928ED6B8444FAC4A818BBBB6 /* Pods-LGRichTextViewTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGRichTextViewTool_Example.release.xcconfig"; path = "Target Support Files/Pods-LGRichTextViewTool_Example/Pods-LGRichTextViewTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C25863975487F79CD6976CC6 /* Pods-LGRichTextViewTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGRichTextViewTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LGRichTextViewTool_Tests/Pods-LGRichTextViewTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6843720FCA2DB72B5987650 /* LGRichTextViewTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LGRichTextViewTool.podspec; path = ../LGRichTextViewTool.podspec; sourceTree = "<group>"; };
+		C6843720FCA2DB72B5987650 /* LGRichTextViewTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGRichTextViewTool.podspec; path = ../LGRichTextViewTool.podspec; sourceTree = "<group>"; };
 		E3C5CE8507AF9E60BF9E4C1E /* Pods-LGRichTextViewTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGRichTextViewTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-LGRichTextViewTool_Tests/Pods-LGRichTextViewTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				C25863975487F79CD6976CC6 /* Pods-LGRichTextViewTool_Tests.debug.xcconfig */,
 				E3C5CE8507AF9E60BF9E4C1E /* Pods-LGRichTextViewTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

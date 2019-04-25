@@ -1,0 +1,23 @@
+{
+  "name": "LGRichTextViewTool",
+  "version": "0.1.0",
+  "summary": "可点击富文本",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/344161818@qq.com/LGRichTextViewTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "344161818@qq.com": "344161818@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/344161818@qq.com/LGRichTextViewTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGRichTextViewTool/Classes/**/*",
+  "resources": "LGRichTextViewTool/Classes"
+}
