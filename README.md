@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/LGRichTextViewTool.svg?style=flat)](https://cocoapods.org/pods/LGRichTextViewTool)
 [![Platform](https://img.shields.io/cocoapods/p/LGRichTextViewTool.svg?style=flat)](https://cocoapods.org/pods/LGRichTextViewTool)
 
+## 
+可点击文字
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +25,7 @@ pod 'LGRichTextViewTool'
 
 ## Author
 
-332718748@qq.com, 332718748@qq.com
+coderLu
 
 ## License
 
