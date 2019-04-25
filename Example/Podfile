@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGRichTextViewTool_Example' do
+  pod 'LGRichTextViewTool', :path => '../'
+
+  target 'LGRichTextViewTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
