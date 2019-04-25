@@ -54,6 +54,8 @@
 {
     if (!_richTextView) {
         _richTextView = [[LGTextView alloc] init];
+        _richTextView.delegate = self;
+        _richTextView.editable = NO;
     }
     return _richTextView;
 }
@@ -95,18 +97,6 @@
         nextRange = NSMakeRange(range.length + range.location, 0);
         index++;
     }
-    
-    NSAttributedString *att1 = [[NSAttributedString alloc] initWithString:@"测试" attributes:@{NSForegroundColorAttributeName:[UIColor blueColor]}];
-    
-    [attributedStr appendAttributedString:att1];
-    
-    [attributedStr addAttribute:NSLinkAttributeName value:@"zhifubao://" range:[[attributedStr string] rangeOfString:[att1 string]]];
-    
-    _contentAttributedText = attributedStr;
-    self.richTextView.attributedText = attributedStr;
-    
-    _richTextView.delegate = self;
-    _richTextView.editable = NO;
 }
 
 - (void)setAttributes:(NSDictionary *)attributes
@@ -124,7 +114,7 @@
 }
 
 - (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction
-{
+API_AVAILABLE(ios(10.0)){
     NSLog(@"%s", __func__);
     if ([self.rangeArray containsObject:NSStringFromRange(characterRange)]) {
         NSInteger index = [self.rangeArray indexOfObject:NSStringFromRange(characterRange)];
@@ -140,47 +130,21 @@
     return NO;
 }
 
-- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange
 {
     NSLog(@"%s", __func__);
-    return YES;
+    if ([self.rangeArray containsObject:NSStringFromRange(characterRange)]) {
+        NSInteger index = [self.rangeArray indexOfObject:NSStringFromRange(characterRange)];
+        NSString *text = self.interactionTextArray[index];
+        NSString *str = LGURLSHEME(index);
+        NSString *sheme = [URL scheme];
+        if ([sheme isEqualToString:str]) {
+            if (self.didSelectTextBlock) {
+                self.didSelectTextBlock(index, text);
+            }
+        }
+    }
+    return NO;
 }
-- (BOOL)textViewShouldEndEditing:(UITextView *)textView
-{
-    NSLog(@"%s", __func__);
-    return YES;
-}
-
-- (void)textViewDidBeginEditing:(UITextView *)textView
-{
-    NSLog(@"%s", __func__);
-}
-- (void)textViewDidEndEditing:(UITextView *)textView
-{
-    NSLog(@"%s", __func__);
-}
-
-- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
-{
-    NSLog(@"%s", __func__);
-    return YES;
-}
-- (void)textViewDidChange:(UITextView *)textView
-{
-    NSLog(@"%s", __func__);
-}
-
-- (void)textViewDidChangeSelection:(UITextView *)textView
-{
-    NSLog(@"%s", __func__);
-}
-
-- (BOOL)textView:(UITextView *)textView shouldInteractWithTextAttachment:(NSTextAttachment *)textAttachment inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction
-{
-    NSLog(@"%s", __func__);
-    return YES;
-}
-
-
 
 @end
